@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextconfig = {
-  output: 'export', // هذا السطر مهم جداً لـ Cloudflare Pages
+const nextConfig = {
+  output: 'export',
+  images: { unoptimized: true }
 };
 
-export default nextconfig;
+export default nextConfig;
